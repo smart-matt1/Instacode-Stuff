@@ -1,0 +1,6 @@
+//
+// Below are the routes for the generated pages. You can copy and paste them
+// into the appropriate routing module in your Angular project.
+//
+
+{{ path: 'teststepspage', loadChildren: () => import('./pages/teststepspage/teststepspage.module').then((m) => m.TeststepspageModule) }}
